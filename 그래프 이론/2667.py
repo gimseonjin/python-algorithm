@@ -57,5 +57,5 @@ for i in range(n):
             danji.append(check_danji(i, j, n, road_map, is_visisted))
 
 print(len(danji))
-for d in danji:
+for d in sorted(danji):
     print(d)
